@@ -24,18 +24,18 @@
 return [
 
     // ── LLM providers (tried in this order for the 'generate' action) ────
-    'groq'       => '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
+    'groq'       => ''
 ',   // https://console.groq.com/keys        e.g. gsk_...
-    'cerebras'   => 'csk-pmr4e265vn5dppxtyj34jkvhyk42p9k2nk988rfk3ke383x6
+    'cerebras'   => ''
 ',   // https://cloud.cerebras.ai             e.g. csk-...
-    'openrouter' => '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
+    'openrouter' => ''
 ',   // https://openrouter.ai/keys            e.g. sk-or-...
-    'mistral'    => 'zqZ7t5oF4OcradoNw8qKqXHIQvmK78ew',   // https://console.mistral.ai/api-keys
+    'mistral'    => '',   // https://console.mistral.ai/api-keys
     'anthropic'  => '',   // https://console.anthropic.com         e.g. sk-ant-...
 
     // ── Live data ─────────────────────────────────────────────────────────
-    'newsapi'    => '3c3e337aa6754763808e47b02cba4caa',   // https://newsapi.org
-    'youtube'    => 'AIzaSyBI0frMRYq8WoT6PgKHBr0Hh4Z8cDU0rbs
+    'newsapi'    => '',   // https://newsapi.org
+    'youtube'    => '
 ',   // https://console.cloud.google.com (YouTube Data API v3)
 
 ];
