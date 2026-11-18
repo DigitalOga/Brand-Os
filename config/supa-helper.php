@@ -11,9 +11,9 @@
 // ✅ CONFIRMED: ehofimpglagpdollauuh is the live project (per your
 // confirmation). assets/js/supabase-client.js has been updated to match
 // this file rather than the other way around.
-define('SUPABASE_URL', 'https://ehofimpglagpdollauuh.supabase.co');            // same as app/supabase-client.js
-define('SUPABASE_ANON_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVob2ZpbXBnbGFncGRvbGxhdXVoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMzEwODIsImV4cCI6MjA5OTgwNzA4Mn0.aFkB_PBLzKsY_4GiyEKcEFGvaKevG5k-PfyfgbzRpmw');   // same as app/supabase-client.js
-define('SUPABASE_SERVICE_ROLE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVob2ZpbXBnbGFncGRvbGxhdXVoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4NDIzMTA4MiwiZXhwIjoyMDk5ODA3MDgyfQ.N1W_uhzCBSY_F8bYZT6oUe1UYlNJEp1kdinAgW7eEY4');       // Settings → API → service_role (secret)
+define('SUPABASE_URL', '');            // same as app/supabase-client.js
+define('SUPABASE_ANON_KEY', '');   // same as app/supabase-client.js
+define('SUPABASE_SERVICE_ROLE_KEY', '');       // Settings → API → service_role (secret)
 
 function curlJson($url, $headers, $method = 'GET', $body = null) {
     $ch = curl_init($url);
